@@ -46,9 +46,11 @@ nav > h4 {
 }
 
 .main {
-  background-color: var(--primary);
   color: white;
   padding: 57px 27px;
+  background-image: url(./images/react-icon-large.png);
+  background-repeat: no-repeat;
+  background-position: right 75%;
 }
 
 .main > h1 {
@@ -65,4 +67,9 @@ nav > h4 {
 li {
   line-height: 19px;
   padding-block: 10px;
+}
+
+.main--facts > li::marker {
+  font-size: 1.4rem;
+  color: #61dafb;
 }
