@@ -44,4 +44,25 @@ nav > h4 {
   color: #deebf8;
   font-weight: 600;
 }
-/* 
+
+.main {
+  background-color: var(--primary);
+  color: white;
+  padding: 57px 27px;
+}
+
+.main > h1 {
+  font-size: 40px;
+  margin: 0;
+  letter-spacing: -0.05em;
+}
+
+.main--facts {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+li {
+  line-height: 19px;
+  padding-block: 10px;
+}
