@@ -1,3 +1,47 @@
+:root {
+  --primary: #282d35;
+  --secondary: #21222a;
+  --accent: #61dafb;
+  --text: #ffffff;
+}
+
 * {
   font-family: "Inter", sans-serif;
+  box-sizing: border-box;
 }
+
+body {
+  color: var(--text);
+  margin: 0;
+  background-color: var(--primary);
+}
+
+nav {
+  background-color: var(--secondary);
+  display: flex;
+  align-items: center;
+  height: 91px;
+  padding: 30px 20px;
+}
+nav > h3,
+nav > h4 {
+  margin: 0;
+}
+
+nav > img {
+  height: 30px;
+  margin-right: 7px;
+}
+
+nav h3 {
+  margin-right: auto;
+  color: var(--accent);
+  font-size: 23px;
+  font-weight: 700;
+}
+
+nav > h4 {
+  color: #deebf8;
+  font-weight: 600;
+}
+/* 
